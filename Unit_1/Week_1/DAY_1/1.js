@@ -13,5 +13,7 @@ console.log(os.platform());
 console.log(os.version());
 console.log(os.homedir());
 console.log(os.cpus());
+const dns = require("dns");
 
+console.log(dns.getServers());
 
