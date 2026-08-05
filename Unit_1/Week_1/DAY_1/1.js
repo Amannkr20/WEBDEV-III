@@ -21,12 +21,12 @@
 
 // 4. crypto 
 // const { log } = require("console");
-const crypto = require("crypto");
+// const crypto = require("crypto");
 
 // Hashing-
-var name = "Bhavya Anand";
-const hashedValue = crypto.createHash("sha256");
-hashedValue.update(name);
-const finalHash = hashedValue.digest("hex");
+// var name = "Bhavya Anand";
+// const hashedValue = crypto.createHash("sha256");
+// hashedValue.update(name);
+// const finalHash = hashedValue.digest("hex");
 
-console.log("Hashed output:", finalHash);
+// console.log("Hashed output:", finalHash);
