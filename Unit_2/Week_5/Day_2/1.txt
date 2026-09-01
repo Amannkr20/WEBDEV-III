@@ -1,0 +1,4 @@
+Route Name is : /home and method is : GET
+Route Name is : /admin and method is : GET
+Route Name is : /read and method is : GET
+Route Name is : /about and method is : GET
