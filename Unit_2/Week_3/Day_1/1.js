@@ -1,36 +1,17 @@
+// Step 1- import express
 const express = require("express");
-
+// Step 2-  create a app through express.js
 const app = express();
-// Create a middlewere
-const timeLoggerMiddleware= (req, res, next) => {
-  const
-  console.log(1);
-  next();
-  console.log(2);
-};
-
-
-const middlewere2 = (req, res, next) => {
-  console.log(3);
-  next();
-  console.log(4);
-};
-// use a middlewere
-app.use(middlewere2);
-app.use(middlewere1);
-
-// Home Page
-app.get("/home", (req, res) => {
-  console.log("Home Page");
-  res.send({ msg: "home Page" });
+// Step 4- create api
+app.get("/", (req, res) => {
+  res.send("Home Page");
 });
-
-// About Page
 app.get("/about", (req, res) => {
-  console.log("About Page");
-  res.send({ msg: "About Page" });
+  res.send("About Page");
+});
+// Step 3- listen/run app on port address
+app.listen(8080, () => {
+  console.log("Server is running on port 8080");
 });
 
-app.listen(8080, () => {
-  console.log("server started");
-});
+

@@ -13,6 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1",
+    "nodeman": "^1.1.2",
     "nodemon": "^3.1.14"
   }
 }
