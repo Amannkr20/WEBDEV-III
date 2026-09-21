@@ -1,4 +1,7 @@
 const express = require('express');
+const fs = require("fs")
+
+const {studentRouter} = require
 
 const app = express();
 
@@ -8,12 +11,12 @@ app.get('/', (req, res) => {
 
 app.get("/read", (req, res) => {
     const data = {JSON.parse(fs.readFileSync("./1.json", "utf-8"))};
-    res.send(data);
+    res.send(data.student;
 });
 
 app.get("/readtr", (req, res) => {
     const data = {JSON.parse(fs.readFileSync("./1.json", "utf-8"))};
-    res.send(data);
+    res.send(data.trainer);
 });
 
 
