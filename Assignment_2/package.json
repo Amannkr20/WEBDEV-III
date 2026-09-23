@@ -1,0 +1,21 @@
+{
+  "name": "assignment_2",
+  "version": "1.0.0",
+  "description": "Lab Assignment 2 - Student Management REST API using Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "express",
+    "rest-api",
+    "crud",
+    "student-management"
+  ],
+  "author": "Bhavya",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
