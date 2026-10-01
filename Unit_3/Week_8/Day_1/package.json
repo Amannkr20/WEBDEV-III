@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon 1.js"
+    "server": "nodemon 1.js"                                 
   },
   "keywords": [],
   "author": "",
@@ -13,7 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "express": "^5.2.1",
-    "mongoose": "^9.10.2",
+    "mongoose": "^9.10.3",
     "nodemon": "^3.1.14"
   }
 }
